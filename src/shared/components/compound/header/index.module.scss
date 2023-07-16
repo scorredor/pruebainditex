@@ -1,0 +1,17 @@
+@import "../../../../shared/styles/general/colors.scss";
+@import "../../../../shared/styles/general/general.scss";
+
+
+.header {
+    display: flex;    
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid $color-gray-2;    
+
+    & h5{
+        color: $color-secondary-2;
+        font-weight: 900;
+        cursor: pointer;
+    }
+}

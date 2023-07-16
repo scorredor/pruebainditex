@@ -1,0 +1,26 @@
+@import "../../../../shared/styles/general/colors.scss";
+@import "../../../../shared/styles/general/general.scss";
+
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    max-width: 280px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 5px;
+
+    &__countContainer {
+        min-width: 40px;        
+        background-color: $color-secondary-2;        
+        padding: 0 5px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    &__countNumber {
+        color: $color-white;
+        font-weight: 600;
+        padding: 1px 0px;
+    }
+}

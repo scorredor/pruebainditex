@@ -1,0 +1,14 @@
+@import "../../../../../shared/styles/general/colors.scss";
+@import "../../../../../shared/styles/general/general.scss";
+
+
+.episodePage{
+    display: flex;        
+    width: 90%;
+    padding-top: 50px;
+    gap: 50px;
+
+    &__description{
+        width: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+@import "../../../../../shared/styles/general/colors.scss";
+@import "../../../../../shared/styles/general/general.scss";
+@import "../../../../../shared/styles/base/base.scss";
+
+.totalEpisodes{
+    display: flex;
+    box-shadow: 0px 2px 5px $color-gray-4;
+    height: 40px;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 10px;
+
+    & p{
+        @extend p;        
+        font-weight: 900;
+        font-size: 18px;
+    }
+}

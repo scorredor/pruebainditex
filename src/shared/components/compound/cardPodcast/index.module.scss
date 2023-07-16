@@ -1,0 +1,43 @@
+@import "../../../../shared/styles/general/colors.scss";
+@import "../../../../shared/styles/general/general.scss";
+
+.cardContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px solid $color-white;
+    border-radius: 5px;
+    box-shadow: 0px 3px 2px $color-gray-4;
+    max-width: 200px;
+    min-height: 150px;
+    padding: 20px;
+    margin: 5px;
+    margin-top: 100px;
+    cursor: pointer;
+
+    &__imageContainer {
+        position: absolute;
+        z-index: 2;
+        top: -50px;
+
+        &>img {
+            border-radius: 50%;
+        }
+    }
+
+    &__title {
+        font-weight: 600;
+        color: $color-black;
+        font-family: $font-primary;
+        text-align: center;                        
+    }
+
+    &__author {
+        text-align: center;
+        font-weight: 500;
+        color: $color-gray-3;
+        font-family: $font-secundary;
+    }
+}

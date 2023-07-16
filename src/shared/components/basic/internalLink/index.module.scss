@@ -1,0 +1,12 @@
+@import "../../../../shared/styles/general/general.scss";
+@import "../../../../shared/styles/base/base.scss";
+
+
+.internalLink{
+    color: $color-secondary-2;
+    font-family: $font-primary;    
+    cursor: pointer;
+    font-weight: 300;
+    margin: 5px;
+    font-size: 17px;
+}

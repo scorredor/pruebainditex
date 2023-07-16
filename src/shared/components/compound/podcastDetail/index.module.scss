@@ -1,0 +1,44 @@
+@import "../../../../shared/styles/general/colors.scss";
+@import "../../../../shared/styles/general/general.scss";
+@import "../../../../shared/styles/base/base.scss";
+
+.podcastDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    box-shadow: 0px 2px 5px $color-gray-4;
+    padding: 10px 5px;    
+    border-radius: 5px;
+    cursor: pointer;
+
+    &__image {
+        margin: 15px;
+    }
+
+    &__image>img {
+        border-radius: 5px;
+    }
+
+    &__song {
+        margin: 10px 15px;
+    }
+
+    &__title{
+        font-weight: 900;
+        font-family: $font-primary;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    &__author{
+        @extend p;
+        line-height: 16px;
+        font-size: 10px;
+    }
+}
+
+.title {
+    &___italics {
+        font-style: italic;
+    }
+}

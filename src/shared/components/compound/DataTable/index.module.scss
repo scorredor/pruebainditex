@@ -1,0 +1,29 @@
+@import "../../../../shared/styles/general/colors.scss";
+@import "../../../../shared/styles/general/general.scss";
+@import "../../../../shared/styles/base/base.scss";
+
+.dataGridContainer {
+    margin: 5px;
+    padding: 20px;
+    max-width: 1000px;
+    box-shadow: 2px 2px 5px $color-gray-4;
+
+    &__header {
+        @extend p;
+        font-weight: 900;
+        color: $color-black;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    &__row {
+        @extend p;                  
+        &___grayBackGround {
+            background-color: $color-gray-5;
+        }
+    }
+}
+
+.cellClassName {
+    text-align: center;
+}

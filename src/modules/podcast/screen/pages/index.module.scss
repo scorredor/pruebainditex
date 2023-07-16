@@ -1,0 +1,16 @@
+@import "../../../../shared/styles/general/colors.scss";
+@import "../../../../shared/styles/general/general.scss";
+@import "../../../../shared/styles/base/base.scss";
+
+
+.podcastPage{
+    display: flex;
+    flex-direction: column;
+    width: 90%;    
+    align-items: flex-end;    
+
+    &__filterSection{
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+}

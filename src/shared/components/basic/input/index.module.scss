@@ -1,0 +1,19 @@
+@import "../../../../shared/styles/general/general.scss";
+@import "../../../../shared/styles/base/base.scss";
+
+
+.input {
+    max-width: 250px;
+    min-width: 30px;
+    height: 35px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: $color-gray-2;
+    padding: 10px 15px;
+    margin: 2px;
+    font-family: $font-primary;
+}
+
+.input:hover {
+    border-width: 3px;
+}
